@@ -1,4 +1,5 @@
-
 module.exports = {
-    publicPath: '/WeatherApp-vuejs/'
+    publicPath: process.env.NODE_ENV === 'production'
+        ? '/my-awdawdhiauwhduiahwudhaiwudh/'
+        : '/ndfsdfndfnfdn'
 }

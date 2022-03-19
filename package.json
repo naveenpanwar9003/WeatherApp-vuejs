@@ -1,11 +1,10 @@
 {
   "name": "vue-weather",
   "version": "0.0.0",
-  "homepage": "https://naveenpanwar9003.github.io/WeatherApp-vuejs/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "deploy": "cd dist  && git add . &&  git commit -m 'okok' && git push -u origin build",
+    "deploy": "sh deploy.sh",
     "preview": "vite preview --port 5050"
   },
   "dependencies": {
